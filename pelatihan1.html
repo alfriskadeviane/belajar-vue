@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pelatihan vue</title>
+</head>
+<body>
+    <div id="app">
+        <h2 v-text="greeting"></h2>
+        <h3 v-html="pesan"></h3> 
+        
+        <p>by {{user}} who lives in {{city}}  </p>
+        <p> {{pesan1}} </p>
+        
+        <button v-on:dblclick="changeGreeting">Change</button>
+        <button v-on:click="addGreeting">Add</button>
+        <input v-on:keyup.enter="alertinput" placeholder="type sth">
+        <p>{{alertMessage}}</p> 
+        <img src="vue.png" v-bind:width="200">
+    </div>
+
+    <script src="vue.js"></script>
+    <script src="pelatihan1.js"></script>
+    
+</body>
+</html>
