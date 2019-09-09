@@ -1,0 +1,3 @@
+[submodule "belajar-vue"]
+	path = belajar-vue
+	url = https://github.com/alfriskadeviane/belajar-vue.git
